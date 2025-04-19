@@ -55,6 +55,7 @@ Following topics will be covered by this intermediate level of python programmin
    ```
 
    You should see outputs like below
+
    ![python version](./images/python-version.png)
 
 5. In command line interface, type `cd`+`SPACE`
