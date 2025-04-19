@@ -38,7 +38,9 @@ Following topics will be covered by this intermediate level of python programmin
 ## To Load This Jupyter Notebook Project
 
 1. Download the sources codes
+
    ![Github Download](./images/github-download.png)
+
 2. Unzip the project source codes
 3. Open command line interface
 
