@@ -35,7 +35,8 @@ Following topics will be covered by this intermediate level of python programmin
 
 ## Required Software/Tools
 
-[Anaconda](https://www.anaconda.com/download)
+- [Download Anaconda](https://www.anaconda.com/download)
+- [Download Visual Studio Code](https://code.visualstudio.com/download)
 
 ## To Load This Jupyter Notebook Project
 
