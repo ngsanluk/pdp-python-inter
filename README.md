@@ -91,3 +91,32 @@ Following topics will be covered by this intermediate level of python programmin
 | `cd`    | change directory                 | `cd myfolder`: change to a subfolder named **myfolder** <br> `cd \`: change to the root folder of computer <br> `cd ~`: change to a user's home directory <br> `cd ..`: change to one-level-up parent folder |
 | `clear` | clear the terminal screen        | `clear`                                                                                                                                                                                                      |
 | `cat`   | display the contents of a file   | `cat myfile.txt`                                                                                                                                                                                             |
+
+## Keyboard Shortcuts
+
+### Shortcuts in _command mode_
+
+- `Enter` enter _edit mode_ in the active cell
+
+- `Up` to navigate to upper cell
+- `Down` to navigate to lower cell
+- `A` insert a new cell above the active cell
+- `B` insert a new cell below the active cell
+- `M` make the active cell a Markdown cell
+- `Y` make the active cell a code cell
+- `Shift` + `Up Arrow` select the current cell and the cell above
+- `Shift` + `Down Arrow` select the current cell and the cell below
+- `Ctrl` + `A` select all cells
+- `X` cut the selected cell or cells
+- `C` copy the selected cell or cells
+- `V` paste the cell(s)
+- `Shift + M` merge multiple selected cells into one cell
+- `DD` (`D` twice) delete the active cell
+- `Z` undo most recent command mode action
+
+### Shortcuts in _edit mode_
+
+- `Esc` to enter _command mode_
+- `Tab` for code completion
+- `Shift` + `Tab` for tooltip help
+- `Ctrl` + `Shift` + `-` split the active cell at the cursor
