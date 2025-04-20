@@ -97,24 +97,25 @@ Following topics will be covered by this intermediate level of python programmin
 
 ### Shortcuts in _command mode_
 
-| Key                    | Function                                    |
-| ---------------------- | ------------------------------------------- |
-| `Enter`                | enter _edit mode_ in the active cell        |
-| `Up`                   | to navigate to upper cell                   |
-| `Down`                 | to navigate to lower cell                   |
-| `A`                    | insert a new cell above the active cell     |
-| `B`                    | insert a new cell below the active cell     |
-| `M`                    | make the active cell a Markdown cell        |
-| `Y`                    | make the active cell a code cell            |
-| `Shift` + `Up Arrow`   | select the current cell and the cell above  |
-| `Shift` + `Down Arrow` | select the current cell and the cell below  |
-| `Ctrl` + `A`           | select all cells                            |
-| `X`                    | cut the selected cell or cells              |
-| `C`                    | copy the selected cell or cells             |
-| `V`                    | paste the cell(s)                           |
-| `Shift + M`            | merge multiple selected cells into one cell |
-| `DD` (`D` twice)       | delete the active cell                      |
-| `Z`                    | undo most recent command mode action        |
+| Key                                         | Function                                    |
+| ------------------------------------------- | ------------------------------------------- |
+| `Enter`                                     | enter _edit mode_ in the active cell        |
+| `Cmd+Enter` (Mac) or `Ctrl+Enter` (Windows) | run and stay at the current cell            |
+| `Up`                                        | to navigate to upper cell                   |
+| `Down`                                      | to navigate to lower cell                   |
+| `A`                                         | insert a new cell above the active cell     |
+| `B`                                         | insert a new cell below the active cell     |
+| `M`                                         | make the active cell a Markdown cell        |
+| `Y`                                         | make the active cell a code cell            |
+| `Shift` + `Up Arrow`                        | select the current cell and the cell above  |
+| `Shift` + `Down Arrow`                      | select the current cell and the cell below  |
+| `Ctrl` + `A`                                | select all cells                            |
+| `X`                                         | cut the selected cell or cells              |
+| `C`                                         | copy the selected cell or cells             |
+| `V`                                         | paste the cell(s)                           |
+| `Shift + M`                                 | merge multiple selected cells into one cell |
+| `DD` (`D` twice)                            | delete the active cell                      |
+| `Z`                                         | undo most recent command mode action        |
 
 ### Shortcuts in _edit mode_
 
