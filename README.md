@@ -30,6 +30,8 @@ Following topics will be covered by this intermediate level of python programmin
 - Concept of Web Scraping
 - Introduction to HTML/CSS
 - Using BeautifulSoup
+- Introduction to Cloud Computing
+- Introduction to AI Tools
 
 ## Required Software/Tools
 
@@ -42,14 +44,17 @@ Following topics will be covered by this intermediate level of python programmin
    ![Github Download](./images/github-download.png)
 
 2. Unzip the project source codes
+
+   In windows, double-clicking a zip file will only give a preview of contents in a zip file. Make sure you extract/zip the contents from the zip file before you move on to the next step.
+
 3. Open command line interface
 
 - For Windows, open **Apps -> Anaconda -> Anaconda PowerShell Prompt**
   ![PowerShell](./images/anaconda-powershell.png)
-- For Mac, open **Terminal** (you can use Spotlight to search Terminal app)
+- For Mac, open **Terminal** app (you can use Spotlight to search Terminal app)
   ![Mac Terminal](./images/mac-terminal.png)
 
-4. In the command line interface, type the following command to verify your anaconda installation
+4. In the command line interface (Windows or Mac), type the following command to verify your anaconda installation
 
    ```
    python --version
@@ -61,13 +66,28 @@ Following topics will be covered by this intermediate level of python programmin
    ![python version](./images/python-version.png)
 
 5. In command line interface, type `cd`+`SPACE`
-6. drag the folder that contains your downloaded source codes from Github. (this will copy the file path of the source codes. It's usually very long path name and that's why we drag it to copy the path name instead of type it by our own). In your terminal, the command should looks like below. `cd` stands for **change directory**
+6. drag the folder that contains your downloaded source codes from Github. (dragging the folder will copy the **file path** of the source codes. It's usually a very long path name and that's why we drag it to copy the path name instead of type it letter by letter). In your terminal, the command should looks like below. (Note: `cd` stands for **c**hange **d**irectory)
 
    `cd C:\Users\sunnyng\Downloads\pdp-python-inter-main`
 
-7. Press `ENTER` to confirm changing working directory to your project.
-8. Type `pwd` (present working directory) to double check if you are already in the project directory.
+   Don't forget the **EMPTY SPACE** between `cd` and the **target folder name**
+
+7. Press `ENTER` to confirm changing your working directory.
+8. Type `pwd` (It shows **p**resent **w**orking **d**irectory) to double check if you are in the correct project directory.
 9. type `jupyter notebook` to start jupyter notebook server from current working directory. A browser will automatically open up showing the Jupyter Notebook dashboard like below.
    ![Jupyter Notebook](./images/jupyter-notebook.png)
+
+   If you wish to stop the jupyter notebook server, press `CTRL` + `C` to quit the notebook server. (It works for both Windows and Mac)
+
 10. Double-click at a notebook (files with extension **.ipynb**) to start learning and practicing python.
     ![Notebook](./images/notebook.png)
+
+## Common CLI commands
+
+| Command | Description                      | Examples                                                                                                                                                                                                     |
+| ------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `pwd`   | present working directory        | `pwd`                                                                                                                                                                                                        |
+| `ls`    | list the contents (file/folders) | `ls` <br> `ls -l` <br> `ls -la`                                                                                                                                                                              |
+| `cd`    | change directory                 | `cd myfolder`: change to a subfolder named **myfolder** <br> `cd \`: change to the root folder of computer <br> `cd ~`: change to a user's home directory <br> `cd ..`: change to one-level-up parent folder |
+| `clear` | clear the terminal screen        | `clear`                                                                                                                                                                                                      |
+| `cat`   | display the contents of a file   | `cat myfile.txt`                                                                                                                                                                                             |
