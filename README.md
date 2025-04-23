@@ -75,8 +75,11 @@ Following topics will be covered by this intermediate level of python programmin
 
 7. Press `ENTER` to confirm changing your working directory.
 8. Type `pwd` (It shows **p**resent **w**orking **d**irectory) to double check if you are in the correct project directory.
-9. type `jupyter notebook` to start jupyter notebook server from current working directory. A browser will automatically open up showing the Jupyter Notebook dashboard like below.
+9. type `jupyter notebook` to start jupyter notebook server from current working directory. A browser will automatically open
+   up showing the Jupyter Notebook dashboard like below.
    ![Jupyter Notebook](./images/jupyter-notebook.png)
+
+   You can alternatively type `jupyter lab` to use enhanced version of notebook. (JupyterLab and Jupyter Notebook are both interactive computing environments for working with Jupyter notebooks, but JupyterLab is a more advanced and flexible evolution of the classic Jupyter Notebook.)
 
    If you wish to stop the jupyter notebook server, press `CTRL` + `C` to quit the notebook server. (It works for both Windows and Mac)
 
