@@ -1,0 +1,11 @@
+{
+  "firstName": "Peter",
+  "lastName": "Pan",
+  "age": 18,
+  "tel": ["111", "222"],
+  "address": {
+    "building": "Cyberport 4",
+    "street": "Information Cres",
+    "district": "Southern District"
+  }
+}
